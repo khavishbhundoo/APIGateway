@@ -1,0 +1,37 @@
+﻿//use amount as int as seen on checkout api  ref
+
+https://api-reference.checkout.com/#tag/Payments/paths/~1payments/post
+
+//use of iso currency symbol 
+
+https://docs.microsoft.com/en-us/dotnet/api/system.globalization.regioninfo.isocurrencysymbol?view=netcore-2.2
+
+//cvv 3 or 4 digits
+https://www.cybersource.com/developers/getting_started/test_and_manage/best_practices/card_type_id.html
+
+
+// TODO : Add validation to ensure format is mm/yy
+        [DataType(DataType.Date)]
+        [DisplayName("Card expiry date in mm/yy format")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/yy}")]
+
+
+
+{
+  "cardNo": "4916812191496465",
+  "expiry": "02/10",
+  "amount": 5,
+  "currency": "USD",
+  "cvv": 567
+}
+
+https://docs.microsoft.com/en-us/aspnet/core/web-api/advanced/conventions?view=aspnetcore-2.2
+
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-2.2&tabs=visual-studio
+
+https://stackoverflow.com/questions/37724738/how-to-unit-test-asp-net-core-application-with-constructor-dependency-injection
+
+https://stackoverflow.com/questions/55594862/how-to-log-from-net-core-web-api-into-elasticsearch-on-own-index
+
+
+https://carlos.mendible.com/2019/01/14/updated-step-step-serilog-asp-net-core/

@@ -1,0 +1,24 @@
+{
+  "args": {},
+  "data": "{\"timestamp\":1569340647,\"request\":{\"cardNo\":\"5356492507012290\",\"expiry\":\"03/18\",\"amount\":50,\"currency\":\"USD\",\"cvv\":987}}",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept-Encoding": "gzip, deflate",
+    "Content-Length": "120",
+    "Content-Type": "application/json; charset=utf-8",
+    "Host": "httpbin.org"
+  },
+  "json": {
+    "request": {
+      "amount": 50,
+      "cardNo": "5356492507012290",
+      "currency": "USD",
+      "cvv": 987,
+      "expiry": "03/18"
+    },
+    "timestamp": 1569340647
+  },
+  "origin": "102.115.166.160, 102.115.166.160",
+  "url": "https://httpbin.org/post"
+}
